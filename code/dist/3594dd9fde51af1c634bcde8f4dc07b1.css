@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600");
+.home-container .inner__heading {
+  font: 300 26px "Open Sans", sans-serif;
+  color: #484848; }
+  .home-container .inner__heading span {
+    font: 400 26px "Open Sans", sans-serif;
+    color: #5A7ED6; }
+
+.home-container .inner__subtitle {
+  font: 300 16px "Open Sans", sans-serif;
+  color: #707070; }
+
+.home-container .inner__console-link {
+  text-decoration: none;
+  color: #FFFFFF;
+  padding: 10px 30px;
+  background: #F6706D;
+  border-radius: 2px;
+  font: 300 12px "Open Sans", sans-serif; }

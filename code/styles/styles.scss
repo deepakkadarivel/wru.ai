@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600');
+
+// colors
+$light-grey: #707070;
+$dark-grey: #484848;
+$primary: #5A7ED6;
+$secondary: #F6706D;
+$white: #FFFFFF;
+$black: #000000;
+
+// fonts
+$app-font: 'Open Sans', sans-serif;
+$lgrey-light-font: 300 16px $app-font;
+$dgrey-light-font: 300 26px $app-font;
+$heading-font: 400 26px $app-font;
+$button-font: 300 12px $app-font;
+
+.home-container {
+    .inner {
+        &__heading {
+            font: $dgrey-light-font;
+            color: $dark-grey;
+            span {
+                font: $heading-font;
+                color: $primary;
+            }
+        }
+
+        &__subtitle {
+            font: $lgrey-light-font;
+            color: $light-grey;
+        }
+
+        &__console-link {
+            text-decoration: none;
+            color: $white;
+            padding: 10px 30px;
+            background: $secondary;
+            border-radius: 2px;
+            font: $button-font; 
+        }
+    }
+}
