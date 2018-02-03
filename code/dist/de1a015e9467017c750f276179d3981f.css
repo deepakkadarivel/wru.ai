@@ -17,3 +17,11 @@
   background: #F6706D;
   border-radius: 2px;
   font: 300 12px "Open Sans", sans-serif; }
+  .home-container .inner__console-link__icon {
+    display: inline-block;
+    height: 24px;
+    width: 24px;
+    background: url("ca2a47a1544075791c37430bd1221b5b.svg") no-repeat top left;
+    position: relative;
+    left: -10px;
+    top: 8px; }

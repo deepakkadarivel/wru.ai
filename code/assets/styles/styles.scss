@@ -37,7 +37,17 @@ $button-font: 300 12px $app-font;
             padding: 10px 30px;
             background: $secondary;
             border-radius: 2px;
-            font: $button-font; 
+            font: $button-font;
+
+          &__icon {
+            display: inline-block;
+            height: 24px;
+            width: 24px;
+            background: url('../../assets/icons/play.svg') no-repeat top left;
+            position: relative;
+            left: -10px;
+            top: 8px;
+          }
         }
     }
 }
